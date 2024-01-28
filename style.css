@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin:0;
+    margin: 0;
     font-family: inter;
     font-weight: 400;
+    letter-spacing: 0.0015px;
 }
 
 html {
@@ -44,12 +45,18 @@ header {
     gap: 32px;
 }
 
+.Header-text span {
+    color: #F4D867;
+}
+
 #banner {
+    width: 1728px;
     height: 80px;
     background-color: #F4CE47;
     margin-top: 26px;
     padding: 12px;
     font-size: 48px;
+    line-height: 56px;
     color: #F4BA30;
 
     display: flex;
@@ -208,9 +215,8 @@ main {
 #down {
     width: 1248px;
     height:40px;
-    background: #000000DE;
-    font-size: 12px;
     line-height: 16px;
+    background: #000000DE;
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
@@ -223,12 +229,15 @@ main {
 }
 
 .privacy {
+    font-size: 12px;
+    line-height: 16px;
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
 
 .contact {
+    font-size: 12px;
     display: flex;
     flex-direction: row;
     gap: 16px;
