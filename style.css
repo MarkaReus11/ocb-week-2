@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin:0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: inter;
     font-weight: 400;
 }
 
@@ -75,7 +75,7 @@ main {
     gap: 8px;
 }
 
-#row-1 {
+#row {
     
     display: flex;
     flex-direction: row;
@@ -90,17 +90,146 @@ main {
     border-radius: 20px;
     padding: 24px;
     background-color: #FFFFFF;
-    ;
+
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-footer {
-    justify-content: center;
-    align-items: center;
+.card-image {
+    width: 246px;
+    height: 357px;
+    border-radius: 11.99px;
+}
+
+.card-content {
+    width: 246px;
+    height: 164px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000099;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000DE;
+}
+
+.card-comments {
+    width: 162px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.comment {
+    border: 1px solid #000000DE;
+    border-radius: 31px;
+    padding: 8px 12px 8px 12px; 
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000DE;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.rate {
+    border: 1px solid #000000DE;
+    border-radius: 47px;
+    padding: 8px 12px 8px 12px; 
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000DE;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.card-comments img {
+    width: 16px;
+    height: 16px;
+}
+
+.price {
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.discount {
+    font-weight: 500;
+    color: #00000061;
+    text-decoration: line-through;
+}
+
+.promo {
+    color: #000000DE;
 }
 
 #up {
     width: 1248px;
     height:88px;
     background: #2A2C2E;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 24px 0px 24px; 
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#down {
+    width: 1248px;
+    height:40px;
+    background: #000000DE;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px 12px 24px; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
 }
