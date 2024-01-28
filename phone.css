@@ -20,16 +20,12 @@
     }
 
     #banner {
-
         margin-top: 22px;
-        margin-left: -649px;
         flex-wrap: nowrap;
-        justify-content:center;
-        align-items: center;
-
+        text-wrap: nowrap;
     }
 
-    main {
+    #group1 {
         margin-top: 16px;
         height: auto;
         padding: 42px;
