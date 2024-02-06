@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin:0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-family: inter;
     font-weight: 400;
+    letter-spacing: 0.0015px;
 }
 
 html {
@@ -42,14 +43,26 @@ header {
     width: 491px;
     height: 24px;
     gap: 32px;
+    justify-content: center;
+}
+
+.Header-text span {
+    color: #F4D867;
+}
+
+.right {
+    width: 258px;
+    height: 56px;
 }
 
 #banner {
+    width: auto;
     height: 80px;
     background-color: #F4CE47;
     margin-top: 26px;
     padding: 12px;
     font-size: 48px;
+    line-height: 56px;
     color: #F4BA30;
 
     display: flex;
@@ -64,7 +77,8 @@ header {
     color: #2A2C2E;
 }
 
-main {
+#group1 {
+    width: auto;
     height: 1847px;
     margin-top: 28px;
     padding: 42px;
@@ -73,9 +87,11 @@ main {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
-#row-1 {
+#row {
     
     display: flex;
     flex-direction: row;
@@ -90,17 +106,158 @@ main {
     border-radius: 20px;
     padding: 24px;
     background-color: #FFFFFF;
-    ;
+
+    display:flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-footer {
-    justify-content: center;
-    align-items: center;
+.card-image {
+    width: 246px;
+    height: 357px;
+    border-radius: 11.99px;
+}
+
+.card-content {
+    width: 246px;
+    height: 164px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 14px;
+    line-height: 20px;
+    color: #00000099;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000DE;
+}
+
+.card-comments {
+    width: 162px;
+    height: 32px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.comment {
+    border: 1px solid #000000DE;
+    border-radius: 31px;
+    padding: 8px 12px 8px 12px; 
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000DE;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.rate {
+    border: 1px solid #000000DE;
+    border-radius: 47px;
+    padding: 8px 12px 8px 12px; 
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000DE;
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.card-comments img {
+    width: 16px;
+    height: 16px;
+}
+
+.price {
+    font-size: 18px;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.discount {
+    font-weight: 500;
+    color: #00000061;
+    text-decoration: line-through;
+}
+
+.promo {
+    color: #000000DE;
 }
 
 #up {
     width: 1248px;
     height:88px;
     background: #2A2C2E;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 24px 0px 24px; 
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#down {
+    width: 1248px;
+    height:40px;
+    line-height: 16px;
+    background: #000000DE;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 24px 12px 24px; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.privacy {
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.contact {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+a {
+    color: #00000099;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:rgb(0, 0, 0);
+    font-weight: bold;
 }
