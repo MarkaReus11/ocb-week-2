@@ -145,6 +145,7 @@ button {
 .privacy {
     font-size: 12px;
     line-height: 16px;
+    
     display: flex;
     flex-direction: row;
     gap: 16px;
